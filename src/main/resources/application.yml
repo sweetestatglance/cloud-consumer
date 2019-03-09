@@ -1,0 +1,15 @@
+
+server:
+  port: 8095
+
+spring:
+  application:
+    name: consumer-service
+
+#eureka配置
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8076/eureka/
